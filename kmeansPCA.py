@@ -26,27 +26,3 @@ plt.ylabel("comp. principal II")
 plt.grid(True)
 plt.savefig("clusterss.png")  
 plt.show()
-
-# You leave me
-# You leave me again
-# Can't change how I feel
-# I cannot pretend
-# That I don't feel, that I'm not real
-
-# You're a ghost
-# A haunting dream
-# Hold me close, stay with me
-# Even if it's just make believe
-
-# You lied to me
-# You lied to me before
-# I can't trust you
-# I cannot ignore
-# The things that you do
-# Because it was always you
-
-# You're a ghost
-# A haunting dream
-# Hold me close, stay with me
-# Even if it's just make believe
-
