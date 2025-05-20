@@ -4,7 +4,6 @@ from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-#  para se gerar dados sintéticos com 3 clusters
 X, y_true = make_blobs(n_samples=150, centers=3, cluster_std=0.6, random_state=42) # para se gerar dados sintétitcos com 3 clusters
 
 # se caso os dados tiverem mais de 2 dimensões, isso aqui é interessante para se reduzir a dimensionalidade com o PCA
@@ -17,7 +16,7 @@ kmeans.fit(X_pca)
 labels = kmeans.predict(X_pca)
 centroids = kmeans.cluster_centers_
 
-# plot do gráfico.png com clusters encontrados
+# plot do clusterss.png (gráfico) com clusters encontrados
 plt.scatter(X_pca[:, 0], X_pca[:, 1], c=labels, s=50, cmap='viridis')
 plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=200, alpha=0.5, marker='X')
 plt.title("todos clusters encontrados pelo K-means com PCA")
